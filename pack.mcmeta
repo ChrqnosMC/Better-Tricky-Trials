@@ -1,65 +1,155 @@
 {
 	"pack": {
 		"pack_format": 121,
-    	"supported_formats": [36,121],
-		"min_format": [36,0],
-		"max_format": [121,0],
+    	"supported_formats": [
+			36,
+			121
+		],
+		"min_format": [
+			36,
+			0
+		],
+		"max_format": [
+			121,
+			0
+		],
 		"description": "Better Tricky Trials"
 	},
 	"overlays": {
 		"entries": [
 			{
-				"formats": [36,43],
-				"min_format": [36,0],
-				"max_format": [43,0],
+				"formats": [
+					36,
+					43
+				],
+				"min_format": [
+					36,
+					0
+				],
+				"max_format": [
+					43,
+					0
+				],
 				"directory": "overlay_36"
 			},
             {
-				"formats": [44,84],
-				"min_format": [44,0],
-				"max_format": [97,1],
+				"formats": [
+					44,
+					84
+				],
+				"min_format": [
+					44,
+					0
+				],
+				"max_format": [
+					97,
+					1
+				],
 				"directory": "overlay_44"
 			},
 			{
-				"formats": [51,58],
-				"min_format": [51,0],
-				"max_format": [58,0],
+				"formats": [
+					51,
+					58
+				],
+				"min_format": [
+					51,
+					0
+				],
+				"max_format": [
+					58,
+					0
+				],
 				"directory": "overlay_51"
 			},
 			{
-				"formats": [51,99],
-				"min_format": [51,0],
-				"max_format": [99,3],
+				"formats": [
+					51,
+					99
+				],
+				"min_format": [
+					51,
+					0
+				],
+				"max_format": [
+					99,
+					3
+				],
 				"directory": "overlay_51_2"
 			},
 			{
-				"formats": [59,61],
-				"min_format": [59,0],
-				"max_format": [61,0],
+				"formats": [
+					59,
+					61
+				],
+				"min_format": [
+					59,
+					0
+				],
+				"max_format": [
+					61,
+					0
+				],
 				"directory": "overlay_59"
 			},
 			{
-				"formats": [59,121],
-				"min_format": [59,0],
-				"max_format": [121,0],
+				"formats": [
+					59,
+					121
+				],
+				"min_format": [
+					59,
+					0
+				],
+				"max_format": [
+					121,
+					0
+				],
 				"directory": "overlay_59_2"
 			},
 			{
-				"formats": [62,121],
-				"min_format": [62,0],
-				"max_format": [121,0],
+				"formats": [
+					62,
+					121
+				],
+				"min_format": [
+					62,
+					0
+				],
+				"max_format": [
+					121,
+					0
+				],
 				"directory": "overlay_62"
 			},
 			{
-				"formats": [92,121],
-				"min_format": [92,0],
-				"max_format": [121,0],
+				"formats": [
+					92,
+					121
+				],
+				"min_format": [
+					92,
+					0
+				],
+				"max_format": [
+					121,
+					0
+				],
 				"directory": "overlay_92"
 			},
 			{
-				"formats": [100,121],
-				"min_format": [100,0],
-				"max_format": [121,0],
+				"formats": [
+					100,
+					121
+				],
+				"min_format": [
+					100,
+					0
+				],
+				"max_format": [
+					121,
+					0
+				],
 				"directory": "overlay_100"
 			}
 		]
