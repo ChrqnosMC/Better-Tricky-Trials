@@ -28,7 +28,7 @@ jobs:
         run: zip -r ${{env.name}}-${{env.tag}}.zip . -x ".git/*" ".github/*" ".gitattributes" "supported_versions.txt" "assets/*" "overlay_36/*" "overlay_44/*"
         working-directory: src
       - name: Create resourcepack zip file
-        run: zip -r ${{env.name}}-${{env.tag}}.zip . -x ".git/*" ".github/*" ".gitattributes" "supported_versions.txt" "data/*" "overlay_51/*" "overlay_51_2/*" "overlay_59/*" "overlay_59_2/*" "overlay_62/*" "overlay_92/*" "overlay_100/*"
+        run: zip -r ${{env.name}}-${{env.tag}}-resourcepack.zip . -x ".git/*" ".github/*" ".gitattributes" "supported_versions.txt" "data/*" "overlay_51/*" "overlay_51_2/*" "overlay_59/*" "overlay_59_2/*" "overlay_62/*" "overlay_92/*" "overlay_100/*"
         working-directory: src
       - name: Read supported versions
         uses: andstor/file-reader-action@v1
